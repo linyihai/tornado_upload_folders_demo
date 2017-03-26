@@ -1,0 +1,78 @@
+[2017-03-22 22:54:57,200] [MasterMainLogger] [INFO] [main] --===****Tornado Web Server Start Running****===--
+[2017-03-22 22:55:31,313] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo :select * from FileInfo where FileMD5 = '178da31a339e2e5c03dfcb19c6ede088'
+[2017-03-22 22:55:31,332] [MasterMainLogger] [INFO] [hanlder_testcase] get_md5:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-22 22:55:31,335] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo by file_path :select * from FileInfo where BINARY FilePath = 'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings'
+[2017-03-22 22:55:31,349] [MasterMainLogger] [INFO] [hanlder_testcase] get_file_by_filepath:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-22 22:55:31,351] [MasterMainLogger] [INFO] [hanlder_testcase] copy_from_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-22 22:55:31,354] [MasterMainLogger] [INFO] [hanlder_testcase] copy_to_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-22 22:55:31,355] [MasterMainLogger] [INFO] [hanlder_testcase] file is at the same path and both have same case
+[2017-03-22 22:57:07,164] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo :select * from FileInfo where FileMD5 = '178da31a339e2e5c03dfcb19c6ede088'
+[2017-03-22 22:57:07,180] [MasterMainLogger] [INFO] [hanlder_testcase] get_md5:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-22 22:57:07,183] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo by file_path :select * from FileInfo where BINARY FilePath = 'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings'
+[2017-03-22 22:57:07,190] [MasterMainLogger] [INFO] [hanlder_testcase] get_file_by_filepath:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-22 22:57:07,191] [MasterMainLogger] [INFO] [hanlder_testcase] copy_from_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-22 22:57:07,193] [MasterMainLogger] [INFO] [hanlder_testcase] copy_to_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-22 22:57:07,193] [MasterMainLogger] [INFO] [hanlder_testcase] file is at the same path and both have same case
+[2017-03-22 22:59:42,697] [MasterMainLogger] [INFO] [main] Stopping Http Server On Keyboard Ctrl C
+[2017-03-22 22:59:42,707] [MasterMainLogger] [INFO] [main] --===****Tornado Web Server Stop Running****===--
+[2017-03-26 10:52:42,730] [MasterMainLogger] [INFO] [main] --===****Tornado Web Server Start Running****===--
+[2017-03-26 10:53:18,834] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo :select * from FileInfo where FileMD5 = '178da31a339e2e5c03dfcb19c6ede088'
+[2017-03-26 10:53:18,914] [MasterMainLogger] [INFO] [hanlder_testcase] get_md5:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-26 10:53:18,917] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo by file_path :select * from FileInfo where BINARY FilePath = 'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings'
+[2017-03-26 10:53:18,924] [MasterMainLogger] [INFO] [hanlder_testcase] get_file_by_filepath:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-26 10:53:18,926] [MasterMainLogger] [INFO] [hanlder_testcase] copy_from_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-26 10:53:18,927] [MasterMainLogger] [INFO] [hanlder_testcase] copy_to_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-26 10:53:18,927] [MasterMainLogger] [INFO] [hanlder_testcase] file is at the same path and both have same case
+[2017-03-26 11:04:06,614] [MasterMainLogger] [INFO] [main] --===****Tornado Web Server Start Running****===--
+[2017-03-26 11:07:15,677] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo :select * from FileInfo where FileMD5 = '178da31a339e2e5c03dfcb19c6ede088'
+[2017-03-26 11:07:15,709] [MasterMainLogger] [INFO] [hanlder_testcase] get_md5:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-26 11:07:15,710] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo by file_path :select * from FileInfo where BINARY FilePath = 'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings'
+[2017-03-26 11:07:15,720] [MasterMainLogger] [INFO] [hanlder_testcase] get_file_by_filepath:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-26 11:07:15,720] [MasterMainLogger] [INFO] [hanlder_testcase] copy_from_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-26 11:07:15,721] [MasterMainLogger] [INFO] [hanlder_testcase] copy_to_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-26 11:07:15,723] [MasterMainLogger] [INFO] [hanlder_testcase] file is at the same path and both have same case
+[2017-03-26 11:07:20,605] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo :select * from FileInfo where FileMD5 = '0324e6d1e445304644718dafe62af5b8'
+[2017-03-26 11:07:20,621] [MasterMainLogger] [INFO] [hanlder_testcase] get_md5:()
+[2017-03-26 11:07:20,644] [MasterMainLogger] [INFO] [hanlder_testcase] progress: 39
+[2017-03-26 11:07:20,647] [MasterMainLogger] [INFO] [testcase_upload] {'params': {u'name': u'del_firmware_method'}, 'name': u'Content-Disposition', 'value': u'form-data'}
+[2017-03-26 11:07:20,651] [MasterMainLogger] [INFO] [testcase_upload] {'params': {u'name': u'The Witcher 3/gamesaves/AutoSave_108d7b_7e02c400_4493b66.png|0324e6d1e445304644718dafe62af5b8', u'filename': u'AutoSave_108d7b_7e02c400_4493b66.png'}, 'name': u'Content-Disposition', 'value': u'form-data'}
+[2017-03-26 11:07:20,653] [MasterMainLogger] [INFO] [testcase_upload] {'params': {}, 'name': u'Content-Type', 'value': u'image/png'}
+[2017-03-26 11:07:20,654] [MasterMainLogger] [INFO] [testcase_upload] relative_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\gamesaves
+[2017-03-26 11:07:20,674] [MasterMainLogger] [INFO] [hanlder_testcase] progress: 76
+[2017-03-26 11:07:20,676] [MasterMainLogger] [INFO] [hanlder_testcase] progress: 100
+[2017-03-26 11:07:20,677] [MasterMainLogger] [DEBUG] [testcase_upload] ============= structure =============
+[2017-03-26 11:07:20,677] [MasterMainLogger] [DEBUG] [testcase_upload] PART #0
+[2017-03-26 11:07:20,678] [MasterMainLogger] [DEBUG] [testcase_upload] HEADERS
+[2017-03-26 11:07:20,680] [MasterMainLogger] [DEBUG] [testcase_upload] sub------{'headers': [{'params': {u'name': u'The Witcher 3/gamesaves/AutoSave_108d7b_7e02c400_4493b66.png|0324e6d1e445304644718dafe62af5b8', u'filename': u'AutoSave_108d7b_7e02c400_4493b66.png'}, 'name': u'Content-Disposition', 'value': u'form-data'}, {'params': {}, 'name': u'Content-Type', 'value': u'image/png'}], 'tmpfile': <open file u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\gamesaves\\AutoSave_108d7b_7e02c400_4493b66.png', mode 'w+b' at 0x0000000002C4A9C0>, 'path': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\gamesaves\\AutoSave_108d7b_7e02c400_4493b66.png', 'size': 61688}
+[2017-03-26 11:07:20,680] [MasterMainLogger] [DEBUG] [testcase_upload] u'Content-Disposition' = u'form-data'
+[2017-03-26 11:07:20,681] [MasterMainLogger] [DEBUG] [testcase_upload] u'name' = u'The Witcher 3/gamesaves/AutoSave_108d7b_7e02c400_4493b66.png|0324e6d1e445304644718dafe62af5b8'
+[2017-03-26 11:07:20,681] [MasterMainLogger] [DEBUG] [testcase_upload] u'filename' = u'AutoSave_108d7b_7e02c400_4493b66.png'
+[2017-03-26 11:07:20,683] [MasterMainLogger] [DEBUG] [testcase_upload] u'Content-Type' = u'image/png'
+[2017-03-26 11:07:20,683] [MasterMainLogger] [DEBUG] [testcase_upload] DATA
+[2017-03-26 11:07:20,684] [MasterMainLogger] [DEBUG] [testcase_upload] SIZE 61688
+[2017-03-26 11:07:20,684] [MasterMainLogger] [DEBUG] [testcase_upload] LOCATION F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\gamesaves\AutoSave_108d7b_7e02c400_4493b66.png
+[2017-03-26 11:07:20,684] [MasterMainLogger] [DEBUG] [testcase_upload] PAYLOAD: <too long...>
+[2017-03-26 11:07:20,686] [MasterMainLogger] [DEBUG] [testcase_upload] ========== non-file values ==========
+[2017-03-26 11:07:20,686] [MasterMainLogger] [DEBUG] [testcase_upload] {}
+[2017-03-26 11:07:20,687] [MasterMainLogger] [DEBUG] [testcase_upload] javascript md5:0324e6d1e445304644718dafe62af5b8
+[2017-03-26 11:07:20,687] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo :select * from FileInfo where FilePath = 'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\gamesaves\\AutoSave_108d7b_7e02c400_4493b66.png'
+[2017-03-26 11:07:20,696] [MasterMainLogger] [DEBUG] [db_testcase] file_md5:0324e6d1e445304644718dafe62af5b8
+[2017-03-26 11:07:20,697] [MasterMainLogger] [DEBUG] [db_testcase] file_path:F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\gamesaves\\AutoSave_108d7b_7e02c400_4493b66.png
+[2017-03-26 11:07:20,697] [MasterMainLogger] [DEBUG] [db_testcase] Add FileInfo SQL:insert into FileInfo (FileID,FileName,FilePath,FileMD5) values ('53a09780-11d1-11e7-8bba-005056c00008', 'AutoSave_108d7b_7e02c400_4493b66.png', 'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\gamesaves\\AutoSave_108d7b_7e02c400_4493b66.png', '0324e6d1e445304644718dafe62af5b8')
+[2017-03-26 12:01:33,188] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo :select * from FileInfo where FileMD5 = '178da31a339e2e5c03dfcb19c6ede088'
+[2017-03-26 12:01:33,207] [MasterMainLogger] [INFO] [hanlder_testcase] get_md5:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-26 12:01:33,210] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo by file_path :select * from FileInfo where BINARY FilePath = 'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings'
+[2017-03-26 12:01:33,219] [MasterMainLogger] [INFO] [hanlder_testcase] get_file_by_filepath:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-26 12:01:33,221] [MasterMainLogger] [INFO] [hanlder_testcase] copy_from_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-26 12:01:33,223] [MasterMainLogger] [INFO] [hanlder_testcase] copy_to_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-26 12:01:33,224] [MasterMainLogger] [INFO] [hanlder_testcase] file is at the same path and both have same case
+[2017-03-26 12:03:22,608] [MasterMainLogger] [INFO] [main] Stopping Http Server On Keyboard Ctrl C
+[2017-03-26 12:03:22,618] [MasterMainLogger] [INFO] [main] --===****Tornado Web Server Stop Running****===--
+[2017-03-26 12:03:24,880] [MasterMainLogger] [INFO] [main] --===****Tornado Web Server Start Running****===--
+[2017-03-26 12:03:36,644] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo :select * from FileInfo where FileMD5 = '178da31a339e2e5c03dfcb19c6ede088'
+[2017-03-26 12:03:36,677] [MasterMainLogger] [INFO] [hanlder_testcase] get_md5:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-26 12:03:36,678] [MasterMainLogger] [DEBUG] [db_testcase] Get FileInfo by file_path :select * from FileInfo where BINARY FilePath = 'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings'
+[2017-03-26 12:03:36,686] [MasterMainLogger] [INFO] [hanlder_testcase] get_file_by_filepath:({'FilePath': u'F:\\workspace\\tornado_upload_folders_demo\\master\\upload_files\\The Witcher 3\\input.settings', 'FileName': u'input.settings', 'FileMD5': u'178da31a339e2e5c03dfcb19c6ede088', 'FileID': u'3fc45321-0e46-11e7-9be6-005056c00008'},)
+[2017-03-26 12:03:36,687] [MasterMainLogger] [INFO] [hanlder_testcase] copy_from_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-26 12:03:36,687] [MasterMainLogger] [INFO] [hanlder_testcase] copy_to_path:F:\workspace\tornado_upload_folders_demo\master\upload_files\The Witcher 3\input.settings
+[2017-03-26 12:03:36,688] [MasterMainLogger] [INFO] [hanlder_testcase] file is at the same path and both have same case

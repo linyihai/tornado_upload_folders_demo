@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/******************************
+ used to display the field 
+******************************/
+
+.field-li {
+    list-style-type: none;
+    margin: 0;
+    line-height: 0;
+}
+
+.field-div {
+    margin-top: 1px;
+    padding: 11px 0 0 5px;
+    min-height: 21px;
+    float: left;
+    word-break: break-all;
+}
+
+.field-label {
+    max-width: 100px;
+    min-width: 100px;
+    background-color: #EAEAEA;
+    color: #555;
+    font-weight: bold;
+}
+
+.field-content {
+    min-width: 316px;
+    max-width: 316px;
+}
