@@ -4,10 +4,13 @@
 
 import tornado.web
 from log import Logger
+from handler_base import RequestHandler, route
+
 logger = Logger('render_file_upload_html')
 
 
-class RenderFlashFirmwareDevHandler(tornado.web.RequestHandler):
+@route(r"/")
+class RenderFlashFirmwareDevHandler(RequestHandler):
 
     def get(self):
         self.render("file_upload.html")

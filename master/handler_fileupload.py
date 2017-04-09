@@ -4,26 +4,25 @@
 
 import os
 import sys
-import json
-import tornado.gen
-import tornado.web
-import time
+
+
 
 import globalvar
 import shutil
 
 from log import Logger
-from testcase_upload import TestCaseUpload
+from file_upload import FileUpload
 from tornado.web import stream_request_body
 from tornado.concurrent import Future
 from globalvar import UPLOAD_PATH
 from globalvar import IS_WINDOWS
 from db_fileupload import UploadFileData
+from handler_base import RequestHandler, route
 
 
 logger = Logger('hanlder_fileupload')
 
-class FileUploadInstance(TestCaseUpload):
+class FileUploadInstance(FileUpload):
     percent = 0
 
     def on_progress(self):
@@ -34,8 +33,8 @@ class FileUploadInstance(TestCaseUpload):
                 self.percent = new_percent
                 logger.info("progress: " + str(new_percent))
 
-
-class CheckFileMd5Handler(tornado.web.RequestHandler):
+@route(r"/check_file_md5")
+class CheckFileMd5Handler(RequestHandler):
     """处理上传用例模块实际上传文件前检测服务器MD5值是否相同并做处理
 
     Returns：
@@ -136,9 +135,9 @@ class CheckFileMd5Handler(tornado.web.RequestHandler):
                     UploadFileData().delete_file_info(file_data[0]["FileID"])
         return file_exist_flag, valid_copy_from_path
 
-
+@route(r"/files_upload")
 @stream_request_body
-class StreamHandler(tornado.web.RequestHandler):
+class StreamHandler(RequestHandler):
 
     def post(self):
         try:
@@ -195,9 +194,8 @@ class FileSaveDBHandler(object):
             # 查找要上传路径是否存在相同名字的文件(不区分大小写)，删除记录和文件
             file_data = UploadFileData().get_file_info(file_path=self.file_path)
             for temp_file in file_data:
-                if temp_file["FilePath"] == self.file_path:
-                    continue
-                if os.path.exists(temp_file["FilePath"]):
+                # 如果要上传路径存在着其他名字相同文件(大小写转换后相同)
+                if temp_file["FilePath"] != self.file_path and os.path.exists(temp_file["FilePath"]):
                     os.remove(temp_file["FilePath"])
-                UploadFileData().delete_file_info(temp_file["FileID"])
+                    UploadFileData().delete_file_info(temp_file["FileID"])
             UploadFileData().save_file_info(self.file_name, self.file_path, self.file_md5)

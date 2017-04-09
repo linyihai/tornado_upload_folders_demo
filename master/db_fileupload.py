@@ -4,8 +4,6 @@
 
 import os
 import sys
-import json
-import const
 
 from log import Logger
 from dbutil import DBUtil
